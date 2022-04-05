@@ -1,4 +1,4 @@
-export function nameValidator(name) {
-  if (!name) return "Name can't be empty."
+export function nomValidator(nom) {
+  if (!nom) return "Nom est obligatoire."
   return ''
 }
