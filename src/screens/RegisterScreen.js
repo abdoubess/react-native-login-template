@@ -47,7 +47,7 @@ export default function RegisterScreen({ navigation }) {
          console.log('response', response);
        }
      })
-     .catch(function (error) {
+     .catch(function (error) { 
        alert(error);
      });
 
